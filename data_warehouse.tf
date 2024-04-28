@@ -43,8 +43,8 @@ resource "aws_iam_policy" "redshift-policy" {
         ]
         Effect   = "Allow"
         Resource =[
-         "arn:aws:s3:::faker-raw-data",
-        "arn:aws:s3:::faker-raw-data/spec*",
+         "arn:aws:s3:::bimmy-module-bucket",
+        "arn:aws:s3:::bimmy-module-bucket/GuardianMovies*",
         ]
       },
       {
